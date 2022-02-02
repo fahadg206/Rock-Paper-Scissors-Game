@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.button {
+    font-size: 2rem;
+    transition: 50ms;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+#players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#results p {
+    margin: 10px;
+}
+
+#options button {
+    padding: 5px;
+    margin: 5px;
+}
+
+#players div {
+    margin: 5px;
+}
+
