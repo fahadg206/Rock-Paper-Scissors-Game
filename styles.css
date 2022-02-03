@@ -10,11 +10,13 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    
 }
 
 .button {
     font-size: 2rem;
     transition: 50ms;
+    border-radius: 25%;
 }
 
 .button:hover {
@@ -34,7 +36,8 @@
 }
 
 #results p {
-    margin: 10px;
+    margin: 40px;
+    text-shadow:5px 5px 10px black;
 }
 
 #options button {
@@ -43,6 +46,23 @@
 }
 
 #players div {
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
+#resultflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#results p {
+    font-size: 20px;
+}
